@@ -1,0 +1,13 @@
+# Python environment (large, machine-specific)
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw data and big intermediate files (the README explains how to download them)
+m5-forecasting-accuracy/
+long_features.parquet
+results/*.parquet
+
+# macOS junk
+.DS_Store
